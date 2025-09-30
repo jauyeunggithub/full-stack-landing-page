@@ -1,0 +1,10 @@
+{
+  "name": "full-stack-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for Full Stack development services with embedded Calendly",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
