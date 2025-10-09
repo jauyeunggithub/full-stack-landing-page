@@ -25,7 +25,6 @@
     <!-- Brand Header -->
     <header class="flex items-center justify-between mb-10">
       <div class="flex items-center space-x-3">
-        <!-- Heroicon logo (CodeBracketIcon) -->
         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-600"
           fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -34,7 +33,6 @@
         <span class="text-xl font-bold text-gray-900">John Au-Yeung Tech</span>
       </div>
     </header>
-
 
     <!-- Hero Section -->
     <section class="mb-8">
@@ -46,7 +44,7 @@
         custom, easy-to-manage websites and automate your backend so you can
         focus on what matters — running your business and growing your revenue.
       </p>
-      <a href="https://calendly.com/john-web-dev/30min" target="_blank"
+      <a href="#enquiry-form"
         class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
         Claim Your Free 15-Minute Strategy Session
       </a>
@@ -88,7 +86,6 @@
     <section class="mb-12">
       <h2 class="text-2xl font-semibold text-gray-900 mb-4">What Our Clients Say
       </h2>
-
       <div class="bg-gray-100 p-4 border-l-4 border-blue-500 mb-4">
         <p class="italic">"We needed a dashboard for our logistics business. The
           team delivered exactly what we imagined — fast, clean, and easy to
@@ -109,18 +106,42 @@
       </div>
     </section>
 
-    <!-- Calendly Embed -->
-    <section class="mb-12">
-      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Book Your Free
-        Consultation</h2>
+    <!-- Enquiry Form -->
+    <section id="enquiry-form" class="mb-12">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Get a Free Strategy
+        Session</h2>
       <p class="mb-4 text-gray-700">
-        Ready to grow your business? Schedule a 15-minute call for expert advice
-        and tailored solutions — no pressure, just clarity.
+        Fill out the form below and I’ll get back to you within 24 hours to
+        schedule your free consultation.
       </p>
-      <div class="w-full h-[630px]">
-        <iframe src="https://calendly.com/john-web-dev/30min"
-          class="w-full h-full border-none" frameborder="0"></iframe>
-      </div>
+
+      <form action="https://usebasin.com/f/21079881c5c7" method="POST"
+        class="space-y-4">
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-700">Your
+            Name</label>
+          <input type="text" id="name" name="name" required
+            class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" />
+        </div>
+        <div>
+          <label for="email"
+            class="block text-sm font-medium text-gray-700">Email
+            Address</label>
+          <input type="email" id="email" name="email" required
+            class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" />
+        </div>
+        <div>
+          <label for="message"
+            class="block text-sm font-medium text-gray-700">Tell me about your
+            project</label>
+          <textarea id="message" name="message" rows="5" required
+            class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+        </div>
+        <button type="submit"
+          class="w-full bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
+          Send Enquiry
+        </button>
+      </form>
     </section>
 
     <!-- Final CTA -->
@@ -129,12 +150,12 @@
         Something That Works for You</h2>
       <p class="text-gray-700 mb-6">
         Whether you're launching a new site or upgrading your current system,
-        I’m here to help you grow faster and smarter. Book your free consult
-        today.
+        I’m here to help you grow faster and smarter. Fill out the form above to
+        get started.
       </p>
-      <a href="https://calendly.com/john-web-dev/30min" target="_blank"
+      <a href="#enquiry-form"
         class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
-        Schedule Your Free Strategy Session
+        Get Your Free Quote
       </a>
     </section>
 
@@ -144,9 +165,7 @@
         class="flex flex-col md:flex-row md:justify-between items-center gap-2">
         <p>&copy; 2025 John Au-Yeung Tech. All rights reserved.</p>
         <p>Contact: <a href="mailto:hohanga@gmail.com"
-            class="text-blue-600 hover:underline">hohanga@gmail.com
-          </a>
-        </p>
+            class="text-blue-600 hover:underline">hohanga@gmail.com</a></p>
       </div>
     </footer>
 
