@@ -20,11 +20,7 @@
 
   <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 
-  <script>
-    function onSubmit(token) {
-      document.getElementById("invisible-hcaptcha-form").submit();
-    }
-  </script>
+
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -124,7 +120,7 @@
       </p>
 
       <form action="https://usebasin.com/f/21079881c5c7" method="POST"
-        id="invisible-hcaptcha-form" class="space-y-4">
+        class="space-y-4">
         <input type="hidden" name="enquiry-type"
           value="React Development Services" />
         <div>
@@ -153,11 +149,12 @@
             tabindex="-1" />
         </div>
 
+        <div class="h-captcha"
+          data-sitekey="7fe715a1-151f-4c63-b497-bd971974df05"></div>
+
 
         <button type="submit"
-          data-sitekey="7fe715a1-151f-4c63-b497-bd971974df05"
-          data-callback='onSubmit' data-badge="inline"
-          class="h-captcha w-full bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
+          class="w-full bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
           Send Enquiry
         </button>
 
