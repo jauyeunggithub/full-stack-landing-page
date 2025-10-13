@@ -18,8 +18,6 @@
     gtag('config', 'AW-730339311');
   </script>
 
-  <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-
   <script>
     function onSubmit(token) {
       document.getElementById("invisible-hcaptcha-form").submit();
@@ -42,20 +40,21 @@
       </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="mb-8">
-      <h1 class="text-3xl font-bold text-gray-900 mb-4">
-        Full Stack Web Development That Helps Small Businesses Grow
+    <!-- Hero Section (Updated) -->
+    <section class="mb-8 text-center">
+      <h1 class="text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
+        Websites That Help Small Businesses Get More Customers
       </h1>
-      <p class="text-lg text-gray-700 mb-6">
-        Frustrated with a website that doesn’t bring in customers? I build
-        custom, easy-to-manage websites and automate your backend so you can
-        focus on what matters — running your business and growing your revenue.
+      <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
+        Get a custom, conversion-focused website that attracts leads, saves you
+        time, and grows your revenue — without hiring an expensive agency.
       </p>
       <a href="#enquiry-form"
         class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
-        Contact Us Today
+        Request Your Free 15-Minute Consultation
       </a>
+      <p class="text-sm text-gray-600 mt-2">Only 2 spots left this week — grab
+        yours now</p>
     </section>
 
     <!-- Services -->
@@ -94,11 +93,11 @@
     <section class="mb-12">
       <h2 class="text-2xl font-semibold text-gray-900 mb-4">What Our Clients Say
       </h2>
+
       <div class="bg-gray-100 p-4 border-l-4 border-blue-500 mb-4">
-        <p class="italic">"We needed a dashboard for our logistics business. The
-          team delivered exactly what we imagined — fast, clean, and easy to
-          use."</p>
-        <p class="mt-2 font-semibold">– Mark T., Small Business Owner</p>
+        <p class="italic">“Our dashboard now saves us 10+ hours every week.
+          Fast, clean, and exactly what we needed.”</p>
+        <p class="mt-2 font-semibold">– Mark T., Logistics Business Owner</p>
       </div>
 
       <div class="bg-gray-100 p-4 border-l-4 border-blue-500 mb-4">
@@ -119,13 +118,13 @@
       <h2 class="text-2xl font-semibold text-gray-900 mb-4">Let’s See If We’re a
         Good Fit</h2>
       <p class="mb-4 text-gray-700">
-        Send a quick message below. I’ll review and get back to you within 24
-        hours with next steps or a few helpful ideas.
+        Tell me what you need — I’ll get back within 24 hours with a plan or
+        quote. First consult is free, no obligation.
       </p>
 
 
       <form action="https://usebasin.com/f/21079881c5c7" method="POST"
-        id="invisible-hcaptcha-form" class="space-y-4">
+        class="space-y-4">
         <input type="hidden" name="enquiry-type"
           value="Full Stack Development Services" />
         <div>
@@ -156,29 +155,25 @@
 
 
         <button type="submit"
-          data-sitekey="7fe715a1-151f-4c63-b497-bd971974df05"
-          data-callback='onSubmit' data-badge="inline"
           class="h-captcha w-full bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
-          Send Enquiry
+          🚀 Get Your Free Quote in 24 Hours
         </button>
-
 
       </form>
 
     </section>
 
-    <!-- Final CTA -->
-    <section class="mb-12">
+    <!-- Final CTA (Updated) -->
+    <section class="mb-12 text-center">
       <h2 class="text-2xl font-semibold text-gray-900 mb-4">Let’s Build
-        Something That Works for You</h2>
-      <p class="text-gray-700 mb-6">
-        Whether you're launching a new site or upgrading your current system,
-        I’m here to help you grow faster and smarter. Fill out the form above to
-        get started.
+        Something That Pays for Itself</h2>
+      <p class="text-gray-700 mb-6 max-w-2xl mx-auto">
+        I help small businesses turn their websites into revenue machines. Fill
+        out the form above — let’s talk this week.
       </p>
       <a href="#enquiry-form"
         class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
-        Get Your Free Quote
+        Start My Web Project
       </a>
     </section>
 
@@ -192,6 +187,14 @@
       </div>
     </footer>
 
+  </div>
+
+  <!-- Sticky CTA (Optional, but boosts mobile conversions) -->
+  <div class="fixed bottom-4 right-4 z-50">
+    <a href="#enquiry-form"
+      class="bg-blue-600 text-white px-4 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition text-sm font-semibold">
+      🚀 Get a Free Quote
+    </a>
   </div>
 </body>
 
