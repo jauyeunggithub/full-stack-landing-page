@@ -144,8 +144,14 @@
         or quote. First consultation is free, no obligation.
       </p>
 
-      <form action="https://usebasin.com/f/21079881c5c7" method="POST"
+      <form action="https://api.web3forms.com/submit" method="POST"
         class="space-y-4">
+        <input type="hidden" name="access_key"
+          value="3aeb9a07-d892-47d2-91ba-5708e8d0590d">
+
+        <input type="hidden" name="redirect"
+          value="https://jauyeunggithub.github.io/full-stack-landing-page/thank-you">
+
         <input type="hidden" name="enquiry-type"
           value="Full Stack Development Services" />
         <div>
@@ -168,11 +174,7 @@
           <textarea id="message" name="message" rows="5" required
             class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
         </div>
-        <div class="hidden">
-          <label for="website">Website</label>
-          <input type="text" id="_gotcha" name="_gotcha" autocomplete="off"
-            tabindex="-1" />
-        </div>
+
 
         <button type="submit"
           class="w-full bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
